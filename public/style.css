@@ -1,0 +1,144 @@
+
+
+
+body {
+    background-color: #1D334A;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+
+  width: 100%;
+  height: 50px;
+  background-color: #203850;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+
+  text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left:20px;
+
+}
+li  {
+  float: left;
+
+   border-right:solid 1px #1D334A;
+
+
+}
+
+li a {
+    display: block;
+    color: #8AA6C3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+li a:before {
+
+  border-left: thick solid white;
+
+
+}
+.text {
+text-align: center;
+color: #D9E2EB;
+padding-top: 170px;
+opacity: 1;
+position: absolute;
+left: 0;
+right: 0;
+z-index: 20;
+font-family: 'Oswald', sans-serif;
+
+}
+
+
+.map {
+  margin-top: 40px;
+  opacity: 0.6;
+  background-image: url("https://cdn.glitch.com/d99be002-3cbc-47e4-a582-c744d3579f02%2Fmap.png?1493543473332");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  z-index: -1;
+
+}
+
+
+.text2 {
+
+  margin-top:0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+
+}
+.text3 {
+
+  text-align: center;
+  font-size: 14px;
+  color: #C3662E;
+  font-family: 'Roboto', sans-serif;
+  margin-top:20px;
+}
+
+
+.wrap{
+  width:100%;
+  height:20%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:absolute;
+  flex-direction:column;
+  top:50%;
+}
+.top{
+  margin-top:30px;
+}
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #21487c;
+   background: -webkit-gradient(linear, left top, left bottom, from(#33618e), to(#21487c));
+   background: -webkit-linear-gradient(top, #33618e, #21487c);
+   background: -moz-linear-gradient(top, #33618e, #21487c);
+   background: -ms-linear-gradient(top, #33618e, #21487c);
+   background: -o-linear-gradient(top, #33618e, #21487c);
+   padding: 14px 28px;
+   -webkit-border-radius: 33px;
+   -moz-border-radius: 33px;
+   border-radius: 33px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 21px;
+   font-family: 'Roboto', sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+
+
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #21487c;
+   background: #21487c;
+   }
+
